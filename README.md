@@ -59,7 +59,7 @@ print(response.status_code)
 To scrape the right data from our target webpage, we need to inspect the webpage in order to identify where the required data is located. To do this, place your cursor on the data (while on the webpage) ,right click and select Inspect. This gives the HTML content through which we can find the tags inside which our data is stored. 
 
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://github.com/xtian4zy/Web-Scraping/blob/main/inspect%20nigeria%20cities.png)
 
 ## Parse data from the HTML
 Good job so far. Next we will create a BeautifulSoup object and use the find() method to extract the relevant information from the webpage which is resident in the table tag. Because wikipedia pages can have multiple tables, we need to specify the particular table we want to scrape by passing the “class” or the “id” attribute of the target table tag.
